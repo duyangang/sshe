@@ -23,6 +23,9 @@ public class DemoAction extends ActionSupport{
 	@Action("save")
 	public String save(){
 		
+		
+		
+		
 		return "save";
 	}
 }
