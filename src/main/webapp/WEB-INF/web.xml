@@ -5,7 +5,11 @@
 	id="ssheWebApp" version="2.5">
 	<display-name>sshe_own</display-name>
 	<description>Struts2+Spring3+Hibernate4+EasyUI1.3</description>
-
+	
+<!-- 	 <context-param> -->
+<!--          <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name> -->
+<!--          <param-value>applicationResources</param-value> -->
+<!--      </context-param> -->
 	<!-- spring配置文件位置 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
@@ -63,7 +67,7 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>struts2</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>*.do</url-pattern>
 	</filter-mapping>
 
 	<!-- 字符集编码配置 -->

@@ -24,5 +24,8 @@
 
 	<!-- 自动扫描dao和service包(自动注入) -->
 	<context:component-scan base-package="sy.dao,sy.service" />
-
+<!-- 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource"> -->
+<!--        <property name="basename" value="applicationResources"/> -->
+<!--    </bean> -->
+<!--    <bean id="applicationContextHelper" class="com.dyg.utils.spring.ApplicationContextHelper"/> -->
 </beans>
